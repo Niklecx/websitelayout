@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .top-left, .bottom-left {
+            margin: 10px;
+        }
+        .top-right img {
+            margin: 10px;
+            width: 100px; /* You can adjust the size as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-row">
+        <div class="top-left">
+            <p>ein text</p>
+        </div>
+        <div class="top-right">
+            <img src="https://t4.ftcdn.net/jpg/01/93/10/75/360_F_193107512_79unWtoXw8T3nXZtCzzC2MfMJrutVv9T.jpg" alt="Image Placeholder">
+        </div>
+    </div>
+    <div class="bottom-left">
+        <p>noch ein text</p>
+    </div>
+</body>
+</html>
